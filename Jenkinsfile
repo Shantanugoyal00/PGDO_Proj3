@@ -16,7 +16,8 @@ node {
     
     stage('Clone Repo') { 
       // Get some code from a GitHub repository
-      git url:'https://github.com/vdharmaraj/PGDO_Proj3.git',branch:'main' //update your forked repo
+	    //https://github.com/Shantanugoyal00/PGDO_Proj3/blob/main/Jenkinsfile
+      git url:'https://github.com/Shantanugoyal00/PGDO_Proj3.git',branch:'main' //update your forked repo
       // Get the Maven tool.
       // ** NOTE: This 'maven-3.5.2' Maven tool must be configured
       // **       in the global configuration.           
